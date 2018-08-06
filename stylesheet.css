@@ -1,46 +1,65 @@
+#headerContaine{align-content: center;
+    text-align: center;
+    width: 100%;
+    margin: 0;  
+}
 
-#mondayImage{
+
+body {
+    background-color: #ffffb3;
+    align-content: space-around;
+    text-align: center;
+    
+}
+
+
+
+.Container{
+    margin:30px;
+    border: solid 5px palevioletred
+}
+
+.Container{
+    position: relative;
+    /* float: right; */
+    width: 20%;
+}
+
+#mondayImage, #tuesdayImage, #wednesdayImage, #thursdayImage, #fridayImage{
     width: 150px;
     height:150px;
 }
 
-#tuesdayImage{
-    width: 150px;
-    height:150px;
+
+#title{
+    background-color: white;
+    width: 50%;
+    /* margin-left: 25%; */
 }
 
- #wednesdayImage{
-    width: 150px;
-    height:150px;
- }
-
-#thursdayImage{
-    width: 150px;
-    height:150px;
-}
-
-#fridayImage{
-    width: 150px;
-    height:150px;
-}
-
-#header{
-    color: rgb(151, 18, 58);
-
-}
-
-div{
+/* #tuesdayContainer{
     border: solid 3px palevioletred;
     margin: 8px;
     text-align: center;
-    width: 25%;}
+    width: 20%;
+    }
 
-body{
-    display: flex;
-    align-content: space-around;
+#wednesdayContainer{
+    border: solid 3px palevioletred;
+    margin: 8px;
     text-align: center;
-}
+    width: 20%;
+        }
 
-#title{
-    position: fixed;
-}
+#thursdayContainer{
+    border: solid 3px palevioletred;
+    margin: 8px;
+    text-align: center;
+    width: 20%;
+            }
+
+#fridayContainer{
+    border: solid 3px palevioletred;
+    margin: 8px;
+    text-align: center;
+    width: 20%;} */
